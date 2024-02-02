@@ -1,0 +1,41 @@
+
+.full-map {
+    width: 100vw;
+    height: 100vh;
+}
+.floating-range {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    z-index: 2;
+    width: 300px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 1px 6px 0px rgba(68, 68, 68, .2);
+}
+.floating-range .floating-content {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+} 
+.floating-range .floating-content button {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+}
+.floating-range .floating-content button span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.floating-range .wrap-info {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
